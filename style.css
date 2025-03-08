@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins",  sans-serif  ;
+    height: 140vh;
+}
+
+.logo{
+    width: 150px;
+}
+
+header{
+    /* width: 150px; */
+    border-bottom: 4px, solid, rgba(0, 0, 0, 0.339);
+}
+header nav{
+    background-color: rgb(255, 255, 255);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a{
+    text-decoration: none;
+    padding: 0 1.5rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.section_collection{
+    margin-top: 7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.section{
+    margin-top: 2rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    margin-bottom: 2rem;
+    height: 90px;
+    border: 4px solid black;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 9px;
+    cursor: pointer;
+}
